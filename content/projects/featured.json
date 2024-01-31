@@ -1,37 +1,75 @@
 [
 	{
-		"project": "My Supply Co.",
-		"url": "https://mysupplyco.com",
+		"project": "Preventeo",
+		"url": "https://preventeo.com",
 		"repo": "Private",
-		"descriptionTitle": "D2C & B2B ecommerce site and blog",
-		"description": "with elegant solutions for a complex codebase and customer journey.",
+		"descriptionTitle": "SaaS platform for management systems administration",
+		"description": "Lead front - from legacy to modern and maintainable solutions" ,
 		"imageOptions": [
 		],
-		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
-			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
-			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
-		],
+		"images": [],
 		"stack": [
-			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
-			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
 			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
-			{ "key": "woocommerce", "name": "WooCommerce", 	"type": "devicon" },
-			{ "key": "wordpress",	"name": "Wordpress", 	"type": "devicon" },
+			{ "key": "vuejs", 		"name": "Vue 3", 		"type": "devicon" },
+			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
+			{ "key": "zend", 		"name": "Zend1", 		"type": "devicon" },
+			{ "key": "symfony", 	"name": "Symfony", 		"type": "devicon" },
+			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
+			{ "key": "phpstorm",	"name": "PHPStorm", 	"type": "devicon" },
+			{ "key": "xcode",		"name": "Xcode", 		"type": "devicon" },
 			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
 			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" }
+			{ "key": "git",			"name": "Git(Lab)", 	"type": "devicon" }
 		]
 	},
 	{
-		"project": "andrewnelson.net",
-		"url": "https://github.com/atlamors/portfolio",
-		"repo": "Public",
-		"descriptionTitle": "An open source portfolio",
-		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
+		"project": "Lecturer",
+		"url": "https://butinfoalt.unice.fr/",
+		"repo": "Private",
+		"descriptionTitle": "University of Nice",
+		"description": "Modules: Advanced object design and programming - Rich Web Client Programming - Web developement - Web add-on",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"stack": [
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "vuejs", 		"name": "Vue", 			"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "sequelize", 	"name": "Sequelize", 	"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" }
+		]
+	},
+	{
+		"project": "Aperooo",
+		"url": "https://www.aperooo.fr",
+		"repo": "Private",
+		"descriptionTitle": "Self employed hybrid app learing & development",
+		"description": "Share your game or cocktail idea and inspire the whole community",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"stack": [
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "firebase", 	"name": "Firebase", 	"type": "devicon" },
+			{ "key": "heroku", 		"name": "Heroku", 		"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "heroku", 		"name": "Heroku", 		"type": "devicon" },
+			{ "key": "bitbucket",	"name": "Bitbucket", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "MAGIC & STAR & SPAAD",
+		"url": "https://www.orange.fr/portail",
+		"repo": "Private",
+		"descriptionTitle": "With Sopra Steria for Orange",
+		"description": "Developments of a recommendation management web portal, creation of a web portal for TV office animation",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
@@ -39,15 +77,15 @@
 			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
 		],
 		"stack": [
-			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
-			{ "key": "react", 		"name": "React", 		"type": "devicon" },
-			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
-			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
+			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
+			{ "key": "zend", 		"name": "Zend2", 		"type": "devicon" },
+			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
+			{ "key": "phpstorm",	"name": "PHPStorm", 	"type": "devicon" },
 			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+			{ "key": "git",			"name": "Git(Lab)", 	"type": "devicon" }
 		]
 	}
 ]

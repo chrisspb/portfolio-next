@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
+		"start": "const Christian = ( name, passion ) =>",
 		"end": "Hello, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -11,22 +11,22 @@
 	},
 
 	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
+		"name": "Christian Pagh-Birk.",
+		"usp": "Website and hybrid mobile app builder"
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": "Digital enthousiast — web and mobile app developer specialized in JavaScript",
 
 	"buttons": {
 		"primary": {
-			"title": "Contact Me",
-			"url": "",
+			"title": "Download my CV! (French)",
+			"url": "https://www.christianpaghbirk.com/CV%20French.pdf",
 			"leaveSite": false
 		},
 		"secondary": {
-			"title": "LinkedIn",
-			"url": "",
-			"leaveSite": "true"
+			"title": "Download my CV! (English)",
+			"url": "https://www.christianpaghbirk.com/CV%20English.pdf",
+			"leaveSite": false
 		}
 	}
 }

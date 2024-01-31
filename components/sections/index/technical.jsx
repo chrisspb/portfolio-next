@@ -28,23 +28,20 @@ export default function Technical() {
 		<Section classProp={`${about.section} borderBottom`}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="Technical"
-					preTitle="Hardskills"
-					subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+					title="Technical Skills and Continuous Adaptation"
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
 						<CopyBlock 
-							title="Polymath foundations"
+							title="Technical Skills and Continuous Adaptation"
 							icon={[ 'fat', 'chart-network' ]}
-							copy="With a strong foundation in both design and development, I bring a unique perspective to every project and am constantly learning and evolving to stay up-to-date with the latest industry trends."
+							copy="As a developer with a keen focus on web and hybrid mobile applications, I leverage a diverse array of tools and languages to create seamless digital experiences. My background in both project management and technology allows me to bring a comprehensive perspective to each project. Dedicated to lifelong learning, I stay abreast of the latest industry advancements."
 							iconClass={about.icon}
 							containerClass={about.container}
 						/>
 						<BadgesBlock 
-							title="Software I love to work with" 
-							copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
-							list={software}
+							title="Technology Passion" 
+							copy="With substantial experience in developing digital solutions, I have honed an intuitive understanding of user interface design. My toolkit, cultivated over years of professional and academic growth, encompasses various software and technologies. I relish in tackling challenges across the full spectrum of development, from front-end aesthetics to back-end functionality and the connecting APIs."
 							block="software" 
 							fullContainer="fullContainer"
 							icon="grid-2-plus"

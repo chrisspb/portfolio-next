@@ -29,12 +29,11 @@ export default function About() {
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
 					title="About Me"
-					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					subTitle="Well-rounded profile of a developer with a strong educational background, diverse skill set, and good experience in both development and teaching."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
+						<Image src="/img/profile-transformed.png" alt="Christian Pagh-Birk introduction" layout='fill'/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
@@ -43,16 +42,15 @@ export default function About() {
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							copy="In addition to my extensive expertise in web and hybrid mobile application development, I have honed strong leadership, time management, and multitasking skills, especially through my roles as a developer and educator. I am confident in my ability to infuse passion and bring significant value to every project I undertake."
 						/>
 						<BadgesBlock 
-							title="Reasearch and planning" 
+							title="Continuous Learning and Project Development in Coworking Spaces" 
 							containerClass={about.container}
-							list={methods} 
 							fullContainer="fullContainer"
 							block="methods" 
 							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
+							copy="One of my favorite aspects of creation is architecting a project, a skill I'm further refining at a coworking space where I'm learning new techniques and working on a proof of concept. I'm deeply engaged in exploring Design Systems and Brand Strategy, enjoying the dynamic interaction with various touchpoints of user experience. This environment offers a unique opportunity to blend learning and practical application, enhancing my approach to creating user-centered designs."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
 						/>
@@ -62,12 +60,3 @@ export default function About() {
 		</Section>
 	)
 }
-
-const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
-]

@@ -22,10 +22,6 @@ export default function Navbar() {
 		class RouteEvents {
 
 			constructor() {
-				console.log(
-					'%c☰  Navigation Router Events Loaded', 
-					'background: #060708; color: #fff; padding: .125rem .75rem; border-radius: 5px; font-weight: 900; '
-				)
 				this.addEventListeners()
 			}
 
@@ -54,10 +50,6 @@ export default function Navbar() {
 		class ScrollEvents {
 
 			constructor() {
-				console.log(
-					'%c▼  Navigation Scroll Events Loaded', 
-					'background: #060708; color: #fff; padding: .125rem .75rem; border-radius: 5px; font-weight: 900; '
-				)
 
 				window.sticky		= {}
 				window.sticky.nav	= document.querySelector(`nav`)
@@ -146,15 +138,6 @@ export default function Navbar() {
 				</li>
 				<li data-open={menuState} className={css.menuContent}>
 					<ul>
-						{
-						content.map( ({ url, title }, index) => {
-							return (
-								<li key={index}>
-									<Link href={url}>{title}</Link>
-								</li>
-							)
-						})	
-						}
 						<li>
 							<ThemeMode />
 						</li>
